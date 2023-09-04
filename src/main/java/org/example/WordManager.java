@@ -32,7 +32,7 @@ public class WordManager { //CRUD 기능을 구현
              wordCRUD.addWord();
            }
            if(menu==1){
-                //list
+               wordCRUD.listAll();
            }
 
        }

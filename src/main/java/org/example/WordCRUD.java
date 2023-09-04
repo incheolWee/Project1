@@ -6,12 +6,7 @@ import java.util.Scanner;
 public class WordCRUD implements ICRUD {
     ArrayList<Word> list;
     Scanner s;
-    /*
-    => 난이도 (1,2,3) & 세 단어 입력 : 1 driveway
-    뜻 입력 : 차고 인입로
-    새단어가 단어장에 추가되었습니다
 
-     */
     WordCRUD(Scanner s){
         list = new ArrayList<>();
         this.s =s;
@@ -48,5 +43,14 @@ public class WordCRUD implements ICRUD {
     @Override
     public void selectOne(int id) {
 
+    }
+
+    public void listAll(){
+        System.out.println("-------------------------------- ");
+                for(int i=0; i <list.size(); i++){
+                    System.out.print((i+1)+" ");
+                    System.out.println(list.get(i).toString());
+                }
+        System.out.println("-------------------------------- ");
     }
 }
