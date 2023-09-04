@@ -3,8 +3,13 @@ import java.util.Scanner;
 
 public class WordManager { //CRUD 기능을 구현
     Scanner s = new Scanner(System.in);
+    WordCRUD wordCRUD;
+    WordManager(){
+       wordCRUD= new WordCRUD(s);
+    }
+
     public int selectMenu(){
-        System.out.println("*** 영단어 마스터 ***\n" +
+        System.out.print("*** 영단어 마스터 ***\n" +
                 "********************\n" +
                 "1. 모든 단어 보기\n" +
                 "2. 수준별 단어 보기\n" +
@@ -20,7 +25,16 @@ public class WordManager { //CRUD 기능을 구현
     }
 
     public void start(){
-       int menu = selectMenu();
-        System.out.println(menu);
+       while(true) {
+           int menu = selectMenu();
+           if(menu==0)break;
+           if (menu==4){
+             wordCRUD.addWord();
+           }
+           if(menu==1){
+                //list
+           }
+
+       }
     }
 }
