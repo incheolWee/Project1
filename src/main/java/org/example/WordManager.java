@@ -27,6 +27,7 @@ public class WordManager { //CRUD 기능을 구현
     public void start(){
        while(true) {
            int menu = selectMenu();
+           System.out.println();
            if(menu==0)break;
            if (menu==4){
              wordCRUD.addWord();
@@ -34,7 +35,7 @@ public class WordManager { //CRUD 기능을 구현
            if(menu==1){
                wordCRUD.listAll();
            }
-
+        System.out.println();
        }
        System.out.println("프로그램 종료! 다음에 만나요~");
     }
