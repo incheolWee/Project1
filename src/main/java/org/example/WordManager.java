@@ -36,5 +36,6 @@ public class WordManager { //CRUD 기능을 구현
            }
 
        }
+       System.out.println("프로그램 종료! 다음에 만나요~");
     }
 }
