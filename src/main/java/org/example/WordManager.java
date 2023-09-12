@@ -35,6 +35,9 @@ public class WordManager { //CRUD 기능을 구현
            if(menu==1){
                wordCRUD.listAll();
            }
+           if(menu==5){
+              wordCRUD.updateIteam();
+           }
         System.out.println();
        }
        System.out.println("프로그램 종료! 다음에 만나요~");
