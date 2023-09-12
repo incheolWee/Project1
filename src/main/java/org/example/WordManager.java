@@ -29,14 +29,18 @@ public class WordManager { //CRUD 기능을 구현
            int menu = selectMenu();
            System.out.println();
            if(menu==0)break;
-           if (menu==4){
-             wordCRUD.addWord();
-           }
+
            if(menu==1){
                wordCRUD.listAll();
            }
+           if (menu==4){
+               wordCRUD.addItem();
+           }
            if(menu==5){
-              wordCRUD.updateIteam();
+              wordCRUD.updateItem();
+           }
+           if(menu==6){
+               wordCRUD.deleteItem();
            }
         System.out.println();
        }
