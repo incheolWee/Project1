@@ -137,4 +137,33 @@ public class WordCRUD implements ICRUD {
                e.printStackTrace();
         }
     }
+  //@override
+    public ArrayList<Integer> listAll(int level) {
+        ArrayList<Integer> idlist = new ArrayList<>();
+        int j = 0;
+        System.out.println("-------------------------------- ");
+        for (int i = 0; i < list.size(); i++) {
+           int ilevel = list.get(i).getLevel();
+            if (ilevel!=level) continue;
+            System.out.print((j + 1) + " ");
+            System.out.println(list.get(i).toString());
+            j++;
+        }
+        System.out.println("-------------------------------- ");
+        return idlist;
+    }
+    public void sarchLevel(){
+        System.out.print("==> 원하는 레벨은? (1~3) ");
+        int level  = s.nextInt();
+        listAll(level);
+    }
+
+
+    public void    searchWord() {
+        System.out.print("==> 원하는 단어는? ");
+      String keyword = s.next();
+      listAll(keyword);
+    }
+
+
 }

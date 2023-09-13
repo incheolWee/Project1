@@ -34,6 +34,12 @@ public class WordManager { //CRUD 기능을 구현
            if(menu==1){
                wordCRUD.listAll();
            }
+           if (menu==2){
+               wordCRUD.sarchLevel();
+           }
+           if(menu==3){
+               wordCRUD.searchWord();
+           }
            if (menu==4){
                wordCRUD.addItem();
            }
