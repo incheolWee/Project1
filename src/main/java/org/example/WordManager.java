@@ -25,6 +25,7 @@ public class WordManager { //CRUD 기능을 구현
     }
 
     public void start(){
+        wordCRUD.loadFile();
        while(true) {
            int menu = selectMenu();
            System.out.println();
