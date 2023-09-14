@@ -1,7 +1,9 @@
 # 영어단어장 프로젝트 제작, Update, Delete, Search, File I/O 기능 구현하기
 
 ## 실행결과
+
 ###Update
+
 <tion 검색><br/r>
 ![image](https://github.com/incheolWee/Project1/assets/126574194/299dd6e7-a5ae-4884-95fe-3991b91b3b03)
 
