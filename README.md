@@ -3,7 +3,7 @@
 ## 실행결과
 
 ### Update
-
+file load완료<br/>
 tion 검색 <br/>
 ![image](https://github.com/incheolWee/Project1/assets/126574194/299dd6e7-a5ae-4884-95fe-3991b91b3b03)
 
@@ -14,7 +14,7 @@ tion 검색 <br/>
 
 단어 변경 완료<br>
 
-### File
+### FileSave
 ![image](https://github.com/incheolWee/Project1/assets/126574194/91ca7bc0-e562-47e4-8dcd-e94e528b38b6)
 
 
@@ -23,7 +23,7 @@ tion 검색 <br/>
 ![image](https://github.com/incheolWee/Project1/assets/126574194/7cb94c12-349a-4470-8277-4c61bbf97b83)
 
 -단어가 너무 많아서 생략- <br/>
-vacation 삭제 완료 -> 단어 찾을 수 없음
+44번 vacation 삭제 완료 -> 단어 찾을 수 없음
 
 ![image](https://github.com/incheolWee/Project1/assets/126574194/01637cb5-406c-46b3-a8f8-f7a5e15de1cf)
 
