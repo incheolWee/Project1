@@ -51,6 +51,8 @@ tion 검색 <br/>
 
 <img src="ScreenShots/단어검색.png">
 
+### 종료
+
 <img src="ScreenShots/종료.png">
 
 
